@@ -1,6 +1,6 @@
 import { DEFAULT_PLAYER_NAME, DEFAULT_LEADERBOARD } from '../config/defaults.js';
 
-console.log('in modules/game-session.js');
+console.log('in modules/games-session.js');
 
 const PLAYER_KEY = 'playerName';
 const LEADERBOARD_KEY = 'leaderboard';
