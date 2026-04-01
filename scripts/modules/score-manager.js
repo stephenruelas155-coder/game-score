@@ -1,5 +1,5 @@
-import { GARFIELD_NEW_SCORE } from '../modules/defaults.js';
-import { getPlayer, getLeaderboardData, setLeaderboardData } from './game-session.js';
+import { GARFIELD_NEW_SCORE } from '../config/defaults.js';
+import { getPlayer, getLeaderboardData, setLeaderboardData } from 'game-session.js';
 
 export function recordGarfieldHighScore() {
   const player = getPlayer();
